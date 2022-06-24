@@ -1,0 +1,17 @@
+Github 
+
+git init
+git remote -v // to check link or not
+git remote add origin (copied code)
+
+git branch -M main
+git add .
+git commit -m ""
+git push --set-upstream origin main        // first time only 
+
+
+further commits 
+
+git add .
+git commit -m ""
+git push

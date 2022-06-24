@@ -3,9 +3,14 @@ Github
 git init
 git remote -v // to check link or not
 git remote add origin (copied code)
+git remote -v // to check link or not  (To check the difference)
 
-git branch -M main
+git branch        // check the current branch
+git branch -M main     // change the branch to main
+git branch      // to check the current branch and see the difference
+git status    // to check the status  (RED)
 git add .
+git status    // to check the status  (GREEN)
 git commit -m ""
 git push --set-upstream origin main        // first time only 
 

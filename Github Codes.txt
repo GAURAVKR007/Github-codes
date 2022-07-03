@@ -1,5 +1,19 @@
 Github 
 
+/------------------------------------- Easy Way -------------------------------------/
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin (repo code)
+git push -u origin main
+
+/------------------------------------- Easy Way -------------------------------------/
+
+
+/------------------------------------ Not So Easy Way --------------------------------/
+
 git init
 git remote -v // to check link or not
 git remote add origin (copied code)
@@ -14,6 +28,7 @@ git status    // to check the status  (GREEN)
 git commit -m ""
 git push --set-upstream origin main        // first time only 
 
+/------------------------------------ Not So Easy Way --------------------------------/
 
 further commits 
 

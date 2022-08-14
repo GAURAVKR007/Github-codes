@@ -1,4 +1,4 @@
-Github 
+ /----------------------------------------------------------- Github Codes ----------------------------------------------/
 
 /------------------------------------- Easy Way -------------------------------------/
 
@@ -10,8 +10,6 @@ git remote add origin (repo code)
 git push -u origin main   { In any case if this not work , we will force push it by the below command }
 
 git push -f origin main        ->      // Force push
-
-
 
 /------------------------------------- Easy Way -------------------------------------/
 
@@ -34,8 +32,32 @@ git push --set-upstream origin main        // first time only
 
 /------------------------------------ Not So Easy Way --------------------------------/
 
-further commits 
+/-------------------------------- Git Useful Commands -----------------------------/
+
+git log              // To check when and what commit's you made in the current directory
+git diff filename.txt     // To check the difference in the file from the last commit 
+git checkout filename.txt    // To roll back to the previous commit file after you messed things up.
+git rm --cached -r .      // To remove every file from staging area in current directory
+git clone repository.url            // To clone the projects files in your current directory
+git checkout main/master/anything     // To Change the branches for the project
+git merge branch_name          // To merge two branches together [In CMD do ":q!" to save and quit]
+
+/-------------------------------- Git Useful Commands -----------------------------/
+
+
+/---------------------------- Git Ignore file Commands --------------------------/
+
+type nul> .gitignore       // To Create the file 
+attrib +h .gitignore       // To hide the file 
+start .gitignore           // To open the file
+
+/---------------------------- Git Ignore file Commands --------------------------/
+
+
+/------------ further commits ----------------------/
 
 git add .
 git commit -m ""
 git push
+
+/------------ further commits ----------------------/

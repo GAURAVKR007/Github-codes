@@ -41,6 +41,7 @@ git rm --cached -r .      // To remove every file from staging area in current d
 git clone repository.url            // To clone the projects files in your current directory
 git checkout main/master/anything     // To Change the branches for the project
 git merge branch_name          // To merge two branches together [In CMD do ":q!" to save and quit]
+git pull origin main       // To pull the code of the github
 
 /-------------------------------- Git Useful Commands -----------------------------/
 

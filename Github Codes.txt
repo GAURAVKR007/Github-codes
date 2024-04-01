@@ -54,6 +54,16 @@ start .gitignore           // To open the file
 
 /---------------------------- Git Ignore file Commands --------------------------/
 
+/------------------------------ Git Upstream Merge Commands ---------------------/
+
+git remote add upstream <URL_of_upstream_repository>
+git fetch upstream
+git merge upstream/main
+git commit -m "Merge upstream changes"
+git push origin <branch_name>
+
+/------------------------------ Git Upstream Merge Commands ---------------------/
+
 
 /------------ further commits ----------------------/
 
